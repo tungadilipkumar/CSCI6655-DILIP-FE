@@ -18,7 +18,7 @@ export default {
         this.btn_disabled = true
         this.btn_text = "publishing..."
         this.response = "";
-        setTimeout(() => fetch('http://localhost:3000/publish_random', {
+        setTimeout(() => fetch("http://52.73.64.17/publish_random", {
             method: "GET", 
             mode: "cors",
         }).then((res) => {

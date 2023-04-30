@@ -45,7 +45,7 @@ export default {
         this.btn_disabled = true
         this.btn_text = "loading..."
         this.temperature_data = []
-        setTimeout(() => {fetch("http://localhost:3000/api", {
+        setTimeout(() => {fetch("http://52.73.64.17/api", {
             method: "GET", 
             mode: "cors",
         }).then((response) => {
